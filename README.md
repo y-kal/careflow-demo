@@ -42,6 +42,6 @@ Data is rendered through textContent / DOM creation; user names and notes are ne
 
 The prototype was generated with ChatGPT Codex, then independently reviewed and tested. Review fixes add duplicate-doctor-review protection, current-day approval/review checks for finalization, and a stacked mobile layout.
 
-Run `node core.test.cjs` (Node.js is only needed for tests). The included `test-results.txt` records 22 passing domain tests. Independent browser checks passed eight scenarios: temperature entry, doctor review and approval, admin discharge, admission and safe literal text rendering, persistence after reload, death/outcome warning, and 390px / 320px layout checks. Desktop, patient dialog, and mobile screenshots were visually inspected. JavaScript syntax checks pass.
+The separate reviewed source archive includes `core.test.cjs` and `test-results.txt`, with 22 passing domain tests. The published repository contains the self-contained runnable build. Independent browser checks passed eight scenarios: temperature entry, doctor review and approval, admin discharge, admission and safe literal text rendering, persistence after reload, death/outcome warning, and 390px / 320px layout checks. Desktop, patient dialog, and mobile screenshots were visually inspected. JavaScript syntax checks pass.
 
 The public deployment bundles CSS and JavaScript into `index.html`, so no installation or build step is required. The reviewed source archive also has separate source files and domain tests.
